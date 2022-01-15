@@ -6,7 +6,7 @@ from framework.models import *
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://kiril:Zakyta1941@localhost/Main'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://kiril:@localhost/Main'
 app.config['WHOOSH_BASE'] = 'whoosh'
 db = SQLAlchemy(app)
 api = Api(app)
