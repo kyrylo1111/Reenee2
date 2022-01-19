@@ -1,7 +1,6 @@
 from app import db
 
 class Plant(db.Model):
-    __searchable__ = ['location', 'name', 'director_id']
     __tablename__ = 'Plants'
     id = db.Column(db.Integer, primary_key=True)
     location = db.Column(db.String(64), nullable=False)
