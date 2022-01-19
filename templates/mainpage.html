@@ -26,8 +26,9 @@
 
       <div class="input-group">
   <div class="form-outline">
-    <input type="search" placeholder="Search in databases" class="form-control" name="q"/>
-    <button class="btn", type="submit">Submit</button>
+    <a href="search"
+    <button type="submit" class="btn" name="search">Database search page</button>
+    </a>
   </div>
 
 </div>
@@ -56,7 +57,7 @@
               <li>director_id</li>
             </ul>
               <form action="{{ url_for('createplant') }}">
-            <button name="addplabt" type="submit" class="w-100 btn btn-lg btn-outline-primary">Add Plant</button>
+            <button name="addplant" type="submit" class="w-100 btn btn-lg btn-outline-primary">Add Plant</button>
                   </form>
           </div>
         </div>
@@ -100,6 +101,7 @@
           </div>
         </div>
       </div>
+    </div>
 </main>
 
 </div>
